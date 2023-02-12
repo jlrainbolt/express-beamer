@@ -12,19 +12,19 @@
 % syntax highlight
 \usepackage{sty/source}
 
-\usepackage[
-  sorting     = none,
-  backend     = biber,
-  maxbibnames = 2,
-  doi         = false,
-  isbn        = false,
-  url         = false,
-  eprint      = false,
-]{biblatex}
+%\usepackage[
+%  sorting     = none,
+%  backend     = biber,
+%  maxbibnames = 2,
+%  doi         = false,
+%  isbn        = false,
+%  url         = false,
+%  eprint      = false,
+%]{biblatex}
 
 
 % The references should be written in the "ref.bib".
-\addbibresource{ref.bib} 
+%\addbibresource{ref.bib} 
 
 % You need this to read our theme from the same directory.
 \makeatletter
@@ -81,17 +81,17 @@
 
 \usepackage[skins, most]{tcolorbox}
 
-\DeclareCiteCommand{\supercite}[\mkbibsuperscript]
-  {\iffieldundef{prenote}
-     {}
-     {\BibliographyWarning{Ignoring prenote argument}}%
-   \iffieldundef{postnote}
-     {}
-     {\BibliographyWarning{Ignoring postnote argument}}}
-  {\usebibmacro{citeindex}%
-   \bibopenbracket\usebibmacro{cite}\bibclosebracket}
-  {\supercitedelim}
-  {}
+%\DeclareCiteCommand{\supercite}[\mkbibsuperscript]
+  %{\iffieldundef{prenote}
+     %{}
+     %{\BibliographyWarning{Ignoring prenote argument}}%
+   %\iffieldundef{postnote}
+     %{}
+     %{\BibliographyWarning{Ignoring postnote argument}}}
+  %{\usebibmacro{citeindex}%
+   %\bibopenbracket\usebibmacro{cite}\bibclosebracket}
+  %{\supercitedelim}
+  %{}
 
 % \let\cite=\supercite
 
@@ -99,7 +99,7 @@
 % (we can have a more detailed info in the footnote when we cite in the slide).
 % Read this after reading "biblatex".
 
-\usepackage{sty/citation}
+%\usepackage{sty/citation}
 
 
 
